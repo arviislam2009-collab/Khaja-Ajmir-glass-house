@@ -113,6 +113,41 @@
         </div>
     </section>
 
+    <!-- Gallery & Video Section (নতুন যুক্ত করা হয়েছে) -->
+    <section class="py-12 px-4 max-w-7xl mx-auto border-t border-slate-200">
+        <div class="text-center mb-10">
+            <h3 class="text-2xl font-bold text-slate-900">আমাদের শো-রুমের ছবি ও ভিডিও</h3>
+            <p class="text-slate-600 text-sm mt-1">আমাদের কাজ ও পণ্যের সরাসরি দৃশ্য</p>
+        </div>
+
+        <!-- 5 Images Grid -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 mb-10">
+            <div class="overflow-hidden rounded-2xl border border-slate-200 shadow-sm bg-white aspect-square">
+                <img src="images/shop-1.jpg" alt="দোকানের ছবি ১" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+            </div>
+            <div class="overflow-hidden rounded-2xl border border-slate-200 shadow-sm bg-white aspect-square">
+                <img src="images/shop-2.jpg" alt="দোকানের ছবি ২" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+            </div>
+            <div class="overflow-hidden rounded-2xl border border-slate-200 shadow-sm bg-white aspect-square">
+                <img src="images/shop-3.jpg" alt="দোকানের ছবি ৩" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+            </div>
+            <div class="overflow-hidden rounded-2xl border border-slate-200 shadow-sm bg-white aspect-square">
+                <img src="images/shop-4.jpg" alt="দোকানের ছবি ৪" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+            </div>
+            <div class="overflow-hidden rounded-2xl border border-slate-200 shadow-sm bg-white aspect-square">
+                <img src="images/shop-5.jpg" alt="দোকানের ছবি ৫" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+            </div>
+        </div>
+
+        <!-- Video Display -->
+        <div class="max-w-4xl mx-auto bg-black rounded-2xl overflow-hidden shadow-lg border border-slate-800">
+            <video controls class="w-full max-h-[500px] object-contain">
+                <source src="images/shop-video.mp4" type="video/mp4">
+                আপনার ব্রাউজারটি ভিডিও সমর্থন করে না।
+            </video>
+        </div>
+    </section>
+
     <!-- Brands Section -->
     <section class="bg-slate-900 text-white py-10 px-4">
         <div class="max-w-7xl mx-auto">
@@ -262,3 +297,6 @@
 
 </body>
 </html>
+                
+
+                
